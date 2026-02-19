@@ -1,0 +1,32 @@
+{
+  "id": "quantum-teledata",
+  "name": "Entanglement Swapping",
+  "category": "fundamentals",
+  "description": "Create entanglement between two qubits (q[0] and q[3]) that never directly interact, via entanglement swapping.",
+  "long_description": "Entanglement swapping extends entanglement over long distances without direct interaction. Two Bell pairs are created: (q[0],q[1]) and (q[2],q[3]). A Bell measurement on q[1] and q[2] (held by an intermediate node) projects q[0] and q[3] into an entangled Bell state, even though they never interacted. Classical communication of the measurement result allows the receiver to apply corrections. This is the basis of quantum repeaters.",
+  "difficulty": "intermediate",
+  "qubit_count": 4,
+  "clbit_count": 4,
+  "gate_count": 10,
+  "depth": 8,
+  "tags": [
+    "entanglement-swapping",
+    "quantum-repeater",
+    "bell-measurement",
+    "fundamentals"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "q[0] and q[3] in a Bell state; measurement outcomes correlated",
+  "references": [
+    {
+      "title": "\u017bukowski et al. (1993). Event-ready-detectors Bell experiment via entanglement swapping. PRL 71, 4287",
+      "url": "https://doi.org/10.1103/PhysRevLett.71.4287"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
