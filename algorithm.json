@@ -1,0 +1,28 @@
+{
+  "slug": "entanglement-swapping",
+  "name": "Entanglement Swapping",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "Create entanglement between two qubits that never directly interact, via entanglement swapping.",
+  "industries": [
+    "education"
+  ],
+  "techniques": [
+    "gate"
+  ],
+  "difficulty": "intermediate",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 4,
+  "tags": [
+    "entanglement-swapping",
+    "teleportation",
+    "bell-state"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "year_introduced": 1993
+  }
+}
