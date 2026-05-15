@@ -5,8 +5,12 @@
   "author": "iniestarchen",
   "license": "Apache-2.0",
   "description": "Create entanglement between two qubits that never directly interact, via entanglement swapping.",
+  "owner": "openqc",
+  "scope": "catalog",
+  "access": "open",
+  "implementation_mode": "catalog_synced",
   "industries": [
-    "education"
+    "foundational"
   ],
   "techniques": [
     "gate"
@@ -20,9 +24,10 @@
     "teleportation",
     "bell-state"
   ],
-  "access": "open",
-  "source": "official",
   "metadata": {
     "year_introduced": 1993
-  }
+  },
+  "circuit_qasm_path": "circuit.qasm",
+  "template_path": "template.py",
+  "status": "available"
 }
