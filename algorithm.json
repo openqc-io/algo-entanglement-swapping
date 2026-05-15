@@ -27,7 +27,8 @@
   "metadata": {
     "year_introduced": 1993
   },
-  "circuit_qasm_path": "circuit.qasm",
-  "template_path": "template.py",
-  "status": "available"
+  "status": "coming-soon",
+  "blockers": [
+    "Legacy QASM uses indexed-bit if() classical control that Qiskit's OpenQASM 2.0 parser doesn't accept. Rewrite needed before status=available."
+  ]
 }
